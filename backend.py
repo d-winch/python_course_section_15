@@ -45,8 +45,5 @@ def update(id, title="", author="", year="", isbn=""):
     conn.close()
 
 connect()
-#insert("The Shining", "Stephen King", 1977, 1234569)
-#delete(2)
-update(3,"The Moon", "John Smith", 1912, 99999999)
 print(view())
-print(search(title="The Shining"))
+#print(search(title="Harry Potter and the Order of the Phoenix"))
